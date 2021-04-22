@@ -1,0 +1,32 @@
+<head>
+    <title>DATA STRUCTURES</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px;">List of students in my class:</h3>
+        <div class="mostOfScreen">
+            <span>1</span>
+            <input type="text" id="student1" placeholder="Name of the student">
+            <br>
+            <br>
+            <span>2</span>
+            <input type="text" id="student2" placeholder="Name of the student">
+            <br>
+            <br>
+            <span>3</span>
+            <input type="text" id="student3" placeholder="Name of the student">
+            <br>
+            <br>
+            <span>4</span>
+            <input type="text" id="student4" placeholder="Name of the student">
+            <br>
+        </div>
+        <button onclick="Submit()" id="submit_button">Submit</button>
+        <div id="resultComma" style="font-weight: bold;margin-top: 20px;margin-bottom: 20px;">
+        </div>
+        <div id="resultNoComma" style="font-weight: bold;margin-top: 20px;margin-bottom: 20px;">
+        </div>
+        <button type="button" id="sort_button" onclick="sorting()" style="display: none;">Sort</button>
+    </center>
+</body>
